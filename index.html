@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
             <div class="title-wrapper">
                 <h2 class="subtitle">Большой курс</h2>
                 <h1 class="title">АНГЛИЙСКИЙ для IT 4.0</h1>
-                <h2 class="subtitle">старт 21 октября</h2>
+                <h3 class="subtitle"><span>старт 21 октября</span></h3>
                 <button class="btn">ЗАБРОНИРОВАТЬ</button>
             </div>
         </div>
@@ -31,6 +32,11 @@
                 <p class="aboutme__descr">Блогер @californian_v</p>
                 <p class="aboutme__descr">Живу в Америке</p>
                 <p class="aboutme__descr">Автор курса "АНГЛИЙСКИЙ для IT"</p>
+                <div class="logo-wrapper">
+                    <a href="https://t.me/itenglishtme"><img src="img/icons/tg.png" alt="telegram"></a>
+                    <a href="https://instagram.com/californian_v?igshid=MWZjMTM2ODFkZg=="><img src="img/icons/insta.png" alt="insta"></a>
+                    <a href=""><img src="img/icons/facebook.png" alt="facebook"></a>
+                </div>
             </div>
 
         </div>
@@ -47,6 +53,7 @@
                     Метод STAR. 
                     Практика бизнес-общения.
                 </p>
+                <div class="more-info" id="interview-link">Подробнее</div>
             </div>
             <div class="skills__block">
                 <img src="img/icons/letter.png" alt="letter">
@@ -55,6 +62,7 @@
                     Научимся писать CV, cover letter, follow up letter.
                     Оформим профиль Linkedin.
                 </p>
+                <div class="more-info" id="cv-link">Подробнее</div>
             </div>
             <div class="skills__block">
                 <img src="img/icons/book.png" alt="book">
@@ -64,11 +72,13 @@
                     Обсудим новости Tech.
                     Будем развивать аудирование.
                 </p>
+                <div class="more-info" id="vocabulary-link">Подробнее</div>
             </div>
             <button class="btn">ЗАБРОНИРОВАТЬ</button>
 
         </div>
     </section>
+
     <section class="price">
         <div class="container">
             <h2 class="subtitle">ТАРИФЫ НА КУРСЕ</h2>
@@ -116,9 +126,74 @@
             <p>2, 9, 16, 30 декабря</p>
             <p>3 месяц</p>
             <p>6, 13, 20, 27 января</p>
-            <button class="btn price__btn">ЗАБРОНИРОВАТЬ</button>
+            <button class="btn price__btn">ПРИСОЕДИНИТЬСЯ</button>
         </div>
     </section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/feedbacks/fb1.jpeg" class="d-block w-50" alt="feedback">
+            </div>
+            <div class="carousel-item">
+                <img src="img/feedbacks/fb2.jpeg" class="d-block w-50" alt="feedback">
+            </div>
+            <div class="carousel-item">
+                <img src="img/feedbacks/fb3.jpeg" class="d-block w-50" alt="feedback">
+            </div>
+            <div class="carousel-item">
+                <img src="img/feedbacks/fb4.jpeg" class="d-block w-50" alt="feedback">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="logo-wrapper">
+            <a href="https://t.me/itenglishtme"><img src="img/icons/tg.png" alt="telegram"></a>
+            <a href="https://instagram.com/californian_v?igshid=MWZjMTM2ODFkZg=="><img src="img/icons/insta.png" alt="insta"></a>
+            <a href=""><img src="img/icons/facebook.png" alt="facebook"></a>
+        </div>
+    </footer>
+
+    <div class="overlay-1">
+        <div class="overlay__modal" id="interview">
+          <div class="overlay__modal-close">&times;</div>
+          <p class="overlay__modal-descr">
+            Научимся грамотно подавать себя работодателю <br>  
+            Разберём, как отвечать на самые популярные разнотипные интервью-вопросы , согласно вашему опыту и специальности <br>  
+            Поговорим о том, что не нужно делать наинтервью <br>  
+            Научимся определять, что ищет работодатель при использовании методов поведенческого интервьюирования<br>  
+            Поговорим о методе S.T.A.R. и ero эффективности<br>  
+            Будем практиковать навыки бизнес-общения в группе 
+          </p>
+        </div>
+      </div>
+      <div class="overlay-2">
+        <div class="overlay__modal" id="cv">
+          <div class="overlay__modal-close">&times;</div>
+          <div class="overlay__modal-descr">
+            Поговорим о важности LinkedIn : обсудим как оформить профиль LinkedIn и что писать рекрутерам 
+            Составим Cover Letter и Follow Up Letter 
+            Подготовим СПИСОК вопросов , которые обязательно следует задать работодателю 
+            Научимся писать выигрышное резюме
+          </div>
+        </div>
+      </div>
+      
+      <div class="overlay-3">
+        <div class="overlay__modal" id="vocabulary">
+          <div class="overlay__modal-close">&times;</div>
+          <p class="overlay__modal-descr">
+            Пополним словарный запас по темам: IT и business 
+            Научимся выражать и отстаивать своё мнение, профессионально выражать согласие и несогласие
+            Будем развивать навык аудирования путём просмотра видео и прослушивания подкастов 
+            Обсудим последние новости из Tech 
+          </p>
+        </div>
+      </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
