@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .promo{
-    min-height: 350px;
+    min-height: 450px;
     background: url('img/bg.jpg') center center/cover no-repeat;
     padding-top: 20px;
 
@@ -19,7 +19,7 @@
     color: #DA494E;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -30,7 +30,7 @@
     color: #DA494E;
     text-align: center;
     font-family: Inter;
-    font-size: 35px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -77,11 +77,12 @@
     color: #DA494E;
     text-align: center;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+
 }
 .skills__descr, .descr{
     color: #757575;
@@ -99,4 +100,5 @@
 }
 .price__subtitle{
     margin-top: 10px;
+    font-size: 25px;
 }
