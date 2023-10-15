@@ -204,7 +204,15 @@ img {
     font-size: 16px;
 }
 span {
+    display: block;
+    margin: 0 auto;
     color: #F7B401;
     font-size: 20px;
     text-align: center;
+}
+.schedule{
+    width: 80vw;
+}
+.feedback__subtitle{
+    margin-bottom: 20px;
 }
